@@ -129,7 +129,6 @@ public class KeyboardView extends View {
         stroke.setStrokeCap(Paint.Cap.ROUND);
         stroke.setStrokeJoin(Paint.Join.ROUND);
         shadow.setColor(0x38000000);
-        setMotionEventSplittingEnabled(false);
         build();
     }
 
